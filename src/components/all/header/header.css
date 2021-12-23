@@ -17,7 +17,7 @@ header {
 }
 .group a{
     margin: 20px;
-    font-size: 18px;
+    font-size: 1.2em;
     color: rgb(16, 36, 44);
     text-decoration: none;
     display: flex;
@@ -87,7 +87,7 @@ header {
     align-items: center;
     min-width: fit-content;
     height: fit-content;
-    font-size: 17px;
+    font-size: 1.2em;
     background: white;
     transition: transform 0.3s ease-in-out;
 }
@@ -114,7 +114,7 @@ header {
 }
 .services a{
     padding: 20px;
-    font-size: 19px;
+    font-size: 1.2em;
     color: rgb(16, 36, 44);
     text-decoration: none;
     display: flex;
@@ -162,7 +162,7 @@ header {
     }
     .hambuger-icon {
         margin-right: 20px;
-        font-size: 30px;
+        font-size: 1.4em;
         color: grey;
         transition: all 0.2s ease-in-out;
     }
