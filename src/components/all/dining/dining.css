@@ -37,9 +37,9 @@
 .diners {
     background: rgb(255,255,255);
     min-width: 330px;
-    width: 24%;
+    width: 22%;
     height: fit-content;
-    margin: 20px;
+    margin: 10px;
     border: 1px solid inherit;
     display: flex;
     flex-direction: column;
@@ -84,7 +84,7 @@
 }
 .inverted {
     min-width: 330px;
-    width: 23%;
+    width: 22%;
     margin: 0 auto;
     display: flex;
     justify-content: center;

@@ -46,6 +46,7 @@
     align-self: center;
 }
 .abt-main-section {
+    height: auto;
     flex-direction: column;
     text-align: left;
     padding: 60px 60px 20px 60px;
@@ -53,13 +54,13 @@
 }
 .abt-main-section h3 {
     color: rgb(198,154,106);
-    font-size: 22px;
+    font-size: 21px;
     font-weight: 500;
 }
 .abt-main-section h2 {
     color: rgb(8,48,64);
     font-family: 'Oswald', sans-serif;
-    font-size: 35px;
+    font-size: 32px;
     font-weight: 500;
     line-height: 1.1;
     margin: 17px 0 40px;

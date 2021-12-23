@@ -67,7 +67,7 @@
     opacity: 1;
     position: relative;
     top: 70%;
-    font-size: 28px;
+    font-size: 26px;
     padding: 10px 0;
     margin-bottom: 30px;
     border-bottom: 2px solid rgb(205, 162, 116);
@@ -77,12 +77,12 @@
     opacity: 0;
     margin: 50px 0 53px 0;
     line-height: 1.5em;
-    font-size: 19px;
+    font-size: 17px;
     transition: 1s ease-in;
 }
 .hotels .caption a {
     opacity: 0;
-    font-size: 16px;
+    font-size: 15px;
     color: rgb(205, 162, 116);
     letter-spacing: 1px;
     text-decoration: none;
