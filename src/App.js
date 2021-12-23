@@ -54,10 +54,9 @@ function App() {
     <>
     <BrowserRouter >
     <Header />
-    <Home />
     <Switch>
       {/* HOME */}
-    <Route exact path="/eko-hotel" component={Home} />
+    <Route exact path="/" component={Home} />
     <Route exact path='/contact-us' component={ContactPage}/>
     <Route exact path='/about-us' component={AboutPage}/>
     {/* HOTELS */}
