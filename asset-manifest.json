@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/eko-hotel/static/css/main.3606e771.chunk.css",
+    "main.css": "/eko-hotel/static/css/main.570659ee.chunk.css",
     "main.js": "/eko-hotel/static/js/main.a3a4aee8.chunk.js",
     "main.js.map": "/eko-hotel/static/js/main.a3a4aee8.chunk.js.map",
     "runtime-main.js": "/eko-hotel/static/js/runtime-main.f2c9e564.js",
@@ -12,7 +12,7 @@
     "static/js/3.f41db61b.chunk.js.map": "/eko-hotel/static/js/3.f41db61b.chunk.js.map",
     "index.html": "/eko-hotel/index.html",
     "static/css/2.b0d5651f.chunk.css.map": "/eko-hotel/static/css/2.b0d5651f.chunk.css.map",
-    "static/css/main.3606e771.chunk.css.map": "/eko-hotel/static/css/main.3606e771.chunk.css.map",
+    "static/css/main.570659ee.chunk.css.map": "/eko-hotel/static/css/main.570659ee.chunk.css.map",
     "static/js/2.643f8a93.chunk.js.LICENSE.txt": "/eko-hotel/static/js/2.643f8a93.chunk.js.LICENSE.txt",
     "static/media/88-restaurant-1.5a00997f.jpg": "/eko-hotel/static/media/88-restaurant-1.5a00997f.jpg",
     "static/media/88-restaurant-2.1d1c15e4.jpg": "/eko-hotel/static/media/88-restaurant-2.1d1c15e4.jpg",
@@ -283,7 +283,7 @@
     "static/js/runtime-main.f2c9e564.js",
     "static/css/2.b0d5651f.chunk.css",
     "static/js/2.643f8a93.chunk.js",
-    "static/css/main.3606e771.chunk.css",
+    "static/css/main.570659ee.chunk.css",
     "static/js/main.a3a4aee8.chunk.js"
   ]
 }
