@@ -36,7 +36,8 @@
 }
 .diners {
     background: rgb(255,255,255);
-    width: 380px;
+    min-width: 340px;
+    width: 24%;
     height: fit-content;
     margin: 20px;
     border: 1px solid inherit;
@@ -63,7 +64,7 @@
 .diners p {
     display: flex;
     flex-wrap: wrap;
-    font-size: 20px;
+    font-size: 17px;
     padding: 0 25px;
     line-height: 1.6;
     color: rgb(51,51,70);
@@ -72,7 +73,7 @@
     display: flex;
     align-self: flex-start;
     align-items: center;
-    font-size: 20px;
+    font-size: 17px;
     margin: 30px 0 20px 0;
     padding: 0 25px;
     color: rgb(8,48,64);

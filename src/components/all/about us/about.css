@@ -53,20 +53,20 @@
 }
 .abt-main-section h3 {
     color: rgb(198,154,106);
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 500;
 }
 .abt-main-section h2 {
     color: rgb(8,48,64);
     font-family: 'Oswald', sans-serif;
-    font-size: 37px;
+    font-size: 35px;
     font-weight: 500;
     line-height: 1.1;
     margin: 17px 0 40px;
 }
 .abt-main-section p {
     color: rgb(16, 36, 44);
-    font-size: 20px;
+    font-size: 18px;
     margin: 0 0 10px;
     line-height: 1.8em;
 }

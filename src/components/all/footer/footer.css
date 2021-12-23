@@ -10,7 +10,7 @@ footer {
 .footer .left, .footer .right {
     width: 25%;
     padding: 30px auto;
-    font-size: 20px;
+    font-size: 18px;
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -18,7 +18,7 @@ footer {
 }
 .footer .centre {
     width: 50%;
-    font-size: 18px;
+    font-size: 16px;
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -35,14 +35,14 @@ footer {
     color: rgb(198,154,106);
 }
 .footer .right h6 {
-    font-size: 23px;
+    font-size: 21px;
     font-weight: 400;
     letter-spacing: 10px;
     margin-bottom: 10px;
     color: rgb(198,154,106);
 }
 .footer .right p {
-    font-size: 21px;
+    font-size: 18px;
     padding-right: 30px;
     margin-bottom: 20px;
     display: flex;
@@ -56,7 +56,7 @@ footer {
 .footer .right input {
     width: 80%;
     padding: 10px;
-    font-size: 19px;
+    font-size: 17px;
     background: inherit;
     border: 1px solid white;
     border-right: none;
@@ -65,7 +65,7 @@ footer {
     background: rgb(198,154,106);
     border: 1px solid white;
     border-left: none;
-    font-size: 22px;
+    font-size: 20px;
     width: 2.2em;
     height: inherit;
 }
@@ -94,7 +94,7 @@ footer .copyright {
     border-top: 2px solid white;
     padding: 30px;
     margin: 0 auto;
-    font-size: 20px;
+    font-size: 18px;
     width: 85%;
 }
 @media only screen and (max-width: 900px) {
@@ -108,7 +108,7 @@ footer .copyright {
         margin: 30px 0;
     }
     .footer .centre p {
-        font-size: 22px;
+        font-size: 20px;
     }
     .footer .centre {
         order: 1;

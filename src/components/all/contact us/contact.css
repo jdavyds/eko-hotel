@@ -72,7 +72,7 @@
 .contact-details .phone section,
 .contact-details .email section,
 .contact-details .address section {
-    font-size: 20px;
+    font-size: 18px;
     margin-left: 30px;
     display: flex;
     flex-direction: column;
@@ -80,11 +80,11 @@
 }
 .contact-details h3 {
     font-weight: 600;
-    font-size: 22px;
+    font-size: 20px;
     color: rgb(61, 57, 57);
 }
 #contact-icon {
-    font-size: 50px;
+    font-size: 45px;
     color: rgb(205,162,116);
 }
 .contact-question {
@@ -114,7 +114,7 @@
     background: white;
     width: 45%;
     height: fit-content;
-    margin: 50px 0 0 0;
+    margin: 50px 0 0 20px;
     display: flex;
     justify-content: left;
     box-shadow: 0 0 10px 0 grey;
@@ -127,7 +127,7 @@
 }
 .contact form h4 {
     color: rgb(198,154,106);
-    font-size: 23px;
+    font-size: 21px;
     font-weight: 400;
     letter-spacing: 6px;
     margin-bottom: 80px;
@@ -148,7 +148,7 @@
     border: 1px solid rgb(128, 128, 128, 0.6);
 }
 .contact form p {
-    font-size: 18px;
+    font-size: 17px;
     color:  rgb(128, 128, 128, 0.9);
     margin-bottom: 25px;
 }
