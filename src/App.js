@@ -52,7 +52,7 @@ import Terms from './components/all/terms & cond/terms';
 function App() {
   return (
     <>
-    <BrowserRouter >
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
     <Header />
     <Switch>
       {/* HOME */}
