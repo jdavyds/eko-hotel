@@ -126,7 +126,7 @@ function Header() {
         <div className="group">
             <nav className="hambuger">
             <div>
-            <Link to='/our-hotels'>OUR HOTELS</Link>
+            <Link to='/eko-hotel/our-hotels'>OUR HOTELS</Link>
             <KeyboardArrowDown
                 id="basic-button"
                 aria-controls="basic-menu"
@@ -144,22 +144,22 @@ function Header() {
                     }}
                 >
                     <MenuItem onClick={handleCloseham} id='drop-item'>
-                        <Link to='/eko-gardens'>
+                        <Link to='/eko-hotel/eko-gardens'>
                             EKO GARDENS
                         </Link>
                     </MenuItem>
                     <MenuItem onClick={handleCloseham} id='drop-item'>
-                        <Link to='/eko-hotels'>
+                        <Link to='/eko-hotel/eko-hotels'>
                             EKO HOTEL
                         </Link>
                     </MenuItem>    
                     <MenuItem onClick={handleCloseham} id='drop-item'>
-                        <Link to='/eko-suites'>
+                        <Link to='/eko-hotel/eko-suites'>
                             EKO SUITES
                         </Link>
                     </MenuItem>
                     <MenuItem onClick={handleCloseham} id='drop-item'>    
-                        <Link to='/eko-signature'>
+                        <Link to='/eko-hotel/eko-signature'>
                             EKO SINATURE
                         </Link>
                     </MenuItem>
@@ -170,7 +170,7 @@ function Header() {
             </Link>
             </nav>
             <nav className="groups">
-                <Link to='/eko-gardens'>EKO GARDENS  </Link>
+                <Link to='/eko-hotel/eko-gardens'>EKO GARDENS  </Link>
                 <KeyboardArrowDown
                 id="basic-button"
                 aria-controls="basic-menu"
@@ -188,17 +188,17 @@ function Header() {
                     }}
                 >
                     <MenuItem onClick={handleClose1} id='drop-item'>
-                        <Link to='/superior-room'>
+                        <Link to='/eko-hotel/superior-room'>
                             EKO GARDEN SUPERIOR
                         </Link>
                     </MenuItem>
                     <MenuItem onClick={handleClose1} id='drop-item'>
-                        <Link to='/classic-room'>
+                        <Link to='/eko-hotel/classic-room'>
                             EKO GARDEN CLASSIC
                         </Link>
                     </MenuItem>
                 </Menu> 
-                <Link to='/eko-hotels'>EKO HOTEL </Link>
+                <Link to='/eko-hotel/eko-hotels'>EKO HOTEL </Link>
                 <KeyboardArrowDown
                 id="basic-button"
                 aria-controls="basic-menu"
@@ -216,32 +216,32 @@ function Header() {
                     }}
                 >
                     <MenuItem onClick={handleClose2} id='drop-item'>
-                        <Link to='/classic-superior-room'>
+                        <Link to='/eko-hotel/classic-superior-room'>
                             EKO CLASSIC SUPERIOR
                         </Link>
                     </MenuItem>
                     <MenuItem onClick={handleClose2} id='drop-item'>
-                        <Link to='/atlantic-superior-room'>
+                        <Link to='/eko-hotel/atlantic-superior-room'>
                             EKO ATLANTIC SUPERIOR
                         </Link>
                     </MenuItem>
                     <MenuItem onClick={handleClose2} id='drop-item'>
-                        <Link to='/classic-suites'>
+                        <Link to='/eko-hotel/classic-suites'>
                             CLASSIC SUITE
                         </Link>
                     </MenuItem>
                     <MenuItem onClick={handleClose2} id='drop-item'>
-                        <Link to='/diplomatic-suites'>
+                        <Link to='/eko-hotel/diplomatic-suites'>
                             DIPLOMATIC SUITE
                         </Link>
                     </MenuItem>
                     <MenuItem onClick={handleClose2} id='drop-item'>
-                        <Link to='/presidential-suites'>
+                        <Link to='/eko-hotel/presidential-suites'>
                             PRESIDENTIAL SUITE
                         </Link>
                     </MenuItem>
                 </Menu>
-                <Link to='/eko-suites'>EKO SUITES </Link>
+                <Link to='/eko-hotel/eko-suites'>EKO SUITES </Link>
                 <KeyboardArrowDown
                 id="basic-button"
                 aria-controls="basic-menu"
@@ -259,22 +259,22 @@ function Header() {
                     }}
                 >
                     <MenuItem onClick={handleClose3} id='drop-item'>
-                        <Link to='/deluxe-room'>
+                        <Link to='/eko-hotel/deluxe-room'>
                             DELUXE ROOM
                         </Link>
                     </MenuItem>
                     <MenuItem onClick={handleClose3} id='drop-item'>
-                        <Link to='/studio-suites'>
+                        <Link to='/eko-hotel/studio-suites'>
                             STUDIO SUITE
                         </Link>
                     </MenuItem>
                     <MenuItem onClick={handleClose3} id='drop-item'>
-                        <Link to='/executive-suites'>
+                        <Link to='/eko-hotel/executive-suites'>
                             EXECUTIVE SUITE
                         </Link>
                     </MenuItem>
                 </Menu> 
-                <Link to='/eko-signature'>EKO SIGNATURE </Link>
+                <Link to='/eko-hotel/eko-signature'>EKO SIGNATURE </Link>
                 <KeyboardArrowDown
                 id="basic-button"
                 aria-controls="basic-menu"
@@ -292,22 +292,22 @@ function Header() {
                     }}
                 >
                     <MenuItem onClick={handleClose4} id='drop-item'>
-                        <Link to='/club-suites'>
+                        <Link to='/eko-hotel/club-suites'>
                             CLUB SUITE
                         </Link>
                     </MenuItem>
                     <MenuItem onClick={handleClose4} id='drop-item'>
-                        <Link to='/premium-suites'>
+                        <Link to='/eko-hotel/premium-suites'>
                             PREMIUM SUITE
                         </Link>
                     </MenuItem>
                     <MenuItem onClick={handleClose4} id='drop-item'>
-                        <Link to='/signature-suites'>
+                        <Link to='/eko-hotel/signature-suites'>
                             SIGNATURE SUITE
                         </Link>
                     </MenuItem>
                     <MenuItem onClick={handleClose4} id='drop-item'>
-                        <Link to='/signature-presidential-suites'>
+                        <Link to='/eko-hotel/signature-presidential-suites'>
                             SIGNATURE PRESIDENTIAL SUITE
                         </Link>
                     </MenuItem>
@@ -340,18 +340,18 @@ function Header() {
             isOpen={dropDown1}
             toggle={toggle1}>
             <DropdownToggle id="hover-menu">
-                <Link to='/'>HOME 
+                <Link to='/eko-hotel/'>HOME 
                 <KeyboardArrowDown/>
                 </Link>
             </DropdownToggle>
             <DropdownMenu>
                 <DropdownItem id='drop-item'>
-                    <Link to='/about-us'>
+                    <Link to='/eko-hotel/about-us'>
                         ABOUT US
                     </Link>
                 </DropdownItem>
                 <DropdownItem id='drop-item'>
-                    <Link to='/contact-us'>
+                    <Link to='/eko-hotel/contact-us'>
                         CONTACT US
                     </Link>
                 </DropdownItem >
@@ -364,53 +364,53 @@ function Header() {
             isOpen={dropDown2}
             toggle={toggle2}>
             <DropdownToggle id="hover-menu">
-                <Link to='/dining'>DINING 
+                <Link to='/eko-hotel/dining'>DINING 
                 <KeyboardArrowDown/>
                 </Link>
             </DropdownToggle>
             <DropdownMenu>
                 <DropdownItem id='drop-item'>
-                    <Link to='/sky-restaurant'>
+                    <Link to='/eko-hotel/sky-restaurant'>
                         SKY RESTAURANT
                     </Link>
                 </DropdownItem>
                 <DropdownItem id='drop-item'>
-                    <Link to='/crossroads-restaurant'>
+                    <Link to='/eko-hotel/crossroads-restaurant'>
                         CROSSROADS RESTAURANT
                     </Link>
                 </DropdownItem >
                 <DropdownItem id='drop-item'>
-                    <Link to='/lagos-irish-pub'>
+                    <Link to='/eko-hotel/lagos-irish-pub'>
                         LAGOS IRISH PUB
                     </Link>
                 </DropdownItem >
                 <DropdownItem id='drop-item'>
-                    <Link to='/88-restaurant'>
+                    <Link to='/eko-hotel/88-restaurant'>
                         88 RESTAURANT
                     </Link>
                 </DropdownItem >
                 <DropdownItem id='drop-item'>
-                    <Link to='/prime-restaurant'>
+                    <Link to='/eko-hotel/prime-restaurant'>
                         PRIME RESTAURANT
                     </Link>
                 </DropdownItem >
                 <DropdownItem id='drop-item'>
-                    <Link to='/red-restaurant'>
+                    <Link to='/eko-hotel/red-restaurant'>
                         RED RESTAURANT
                     </Link>
                 </DropdownItem >
                 <DropdownItem id='drop-item'>
-                    <Link to='/kuramo-sports-cafe'>
+                    <Link to='/eko-hotel/kuramo-sports-cafe'>
                         KURAMO SPORTS CAFE
                     </Link>
                 </DropdownItem >
                 <DropdownItem id='drop-item'>
-                    <Link to='/lagoon-breeze'>
+                    <Link to='/eko-hotel/lagoon-breeze'>
                         LAGOON BREEZE RESTAURANT
                     </Link>
                 </DropdownItem >
                 <DropdownItem id='drop-item'>
-                    <Link to='/calabash-bar'>
+                    <Link to='/eko-hotel/calabash-bar'>
                         CALABASH BAR 
                     </Link>
                 </DropdownItem >
@@ -423,35 +423,35 @@ function Header() {
             isOpen={dropDown3}
             toggle={toggle3}>
             <DropdownToggle id="hover-menu">
-                <Link to='/meetings-and-events'>MEETINGS & EVENTS 
+                <Link to='/eko-hotel/meetings-and-events'>MEETINGS & EVENTS 
                 <KeyboardArrowDown/>
                 </Link>
             </DropdownToggle>
             <DropdownMenu>
                 <DropdownItem id='drop-item'>
-                    <Link to='/grand-ballroom'>
+                    <Link to='/eko-hotel/grand-ballroom'>
                         GRAND BALL ROOM
                     </Link>
                 </DropdownItem>
                 <DropdownItem id='drop-item'>
-                    <Link to='/eko-convention-center'>
+                    <Link to='/eko-hotel/eko-convention-center'>
                         EKO CONVENTION CENTER
                     </Link>
                 </DropdownItem >
                 <DropdownItem id='drop-item'>
-                    <Link to='/fantasia'>
+                    <Link to='/eko-hotel/fantasia'>
                         FANTASIA
                     </Link>
                 </DropdownItem >
                 <DropdownItem id='drop-item'>
-                    <Link to='/meeting-rooms'>
+                    <Link to='/eko-hotel/meeting-rooms'>
                         MEETING ROOMS
                     </Link>
                 </DropdownItem >
             </DropdownMenu>
             </Dropdown>
             </nav>
-            <Link to='/'> 
+            <Link to='/eko-hotel/'> 
             <img src={logo} alt="logo" className='logo'/>
             </Link>
             <nav className='services'>
@@ -462,43 +462,43 @@ function Header() {
             isOpen={dropDown4}
             toggle={toggle4}>
             <DropdownToggle id="hover-menu">
-                <Link to='/recreational-services'>RECREATIONAL SERVICES  
+                <Link to='/eko-hotel/recreational-services'>RECREATIONAL SERVICES  
                 <KeyboardArrowDown/>
                 </Link>
             </DropdownToggle>
             <DropdownMenu>
                 <DropdownItem id='drop-item'>
-                    <Link to='/swimming-pool'>
+                    <Link to='/eko-hotel/swimming-pool'>
                         SWIMMING POOL
                     </Link>
                 </DropdownItem>
                 <DropdownItem id='drop-item'>
-                    <Link to='/gymnasium'>
+                    <Link to='/eko-hotel/gymnasium'>
                         GYM
                     </Link>
                 </DropdownItem >
                 <DropdownItem id='drop-item'>
-                    <Link to='/tennis-court'>
+                    <Link to='/eko-hotel/tennis-court'>
                         TENNIS COURTS
                     </Link>
                 </DropdownItem >
                 <DropdownItem id='drop-item'>
-                    <Link to='/spa'>
+                    <Link to='/eko-hotel/spa'>
                         SPA
                     </Link>
                 </DropdownItem >
                 <DropdownItem id='drop-item'>
-                    <Link to='/basketball-court'>
+                    <Link to='/eko-hotel/basketball-court'>
                         BASKETBALL COURT
                     </Link>
                 </DropdownItem >
                 <DropdownItem id='drop-item'>
-                    <Link to='/volleyball-court'>
+                    <Link to='/eko-hotel/volleyball-court'>
                         VOLLEYBALL COURT
                     </Link>
                 </DropdownItem >
                 <DropdownItem id='drop-item'>
-                    <Link to='/saloon-and-nail-studio'>
+                    <Link to='/eko-hotel/saloon-and-nail-studio'>
                         SALOON & NAIL STUDIO
                     </Link>
                 </DropdownItem >
@@ -511,24 +511,24 @@ function Header() {
             isOpen={dropDown5}
             toggle={toggle5}>
             <DropdownToggle id="hover-menu">
-                <Link to='/'>JOURNAL 
+                <Link to='/eko-hotel/'>JOURNAL 
                 <KeyboardArrowDown/>
                 </Link>
             </DropdownToggle>
             <DropdownMenu>
                 <DropdownItem id='drop-item'>
-                    <Link to='#'>
+                    <Link to='/eko-hotel#'>
                         BLOG
                     </Link>
                 </DropdownItem>
                 <DropdownItem id='drop-item'>
-                    <Link to='#'>
+                    <Link to='/eko-hotel#'>
                         EVENTS
                     </Link>
                 </DropdownItem >
             </DropdownMenu>
             </Dropdown>
-            <Link to='gallery'>GALLERY</Link>
+            <Link to='/eko-hotelgallery'>GALLERY</Link>
             </nav>
             <nav className="hambuger-main">
             <FontAwesomeIcon icon={hambuger ? faBars : faTimes } className='hambuger-icon' onClick={handleHambuger}/>
@@ -537,42 +537,42 @@ function Header() {
         <nav className={hambuger ? 'hambuger-nav' : 'hambuger-nav active'}>
                 <ul>
                     <li id='drop-item'>
-                            <Link to='/'>
+                            <Link to='/eko-hotel/'>
                                 HOME
                             </Link>
                     </li>
                     <li id='drop-item'>
-                            <Link to='/dining'>
+                            <Link to='/eko-hotel/dining'>
                                 DINING
                             </Link>
                     </li>
                     <li id='drop-item'>
-                            <Link to='/meetings-and-events'>
+                            <Link to='/eko-hotel/meetings-and-events'>
                                 MEETINGS & EVENTS
                             </Link>
                     </li>
                     <li id='drop-item'>
-                            <Link to='/recreational-services'>
+                            <Link to='/eko-hotel/recreational-services'>
                                 RECREATIONAL SERVICES
                             </Link>
                     </li>
                     <li id='drop-item'>
-                            <Link to='/#'>
+                            <Link to='/eko-hotel/#'>
                                 BLOG
                             </Link>
                     </li>
                     <li id='drop-item'>
-                            <Link to='/gallery'>
+                            <Link to='/eko-hotel/gallery'>
                                 GALLERY
                             </Link>
                     </li>
                     <li id='drop-item'>
-                            <Link to='/about-us'>
+                            <Link to='/eko-hotel/about-us'>
                                 ABOUT US
                             </Link>
                     </li>
                     <li id='drop-item'>
-                            <Link to='/contact-us'>
+                            <Link to='/eko-hotel/contact-us'>
                                 CONTACT US
                             </Link>
                     </li>

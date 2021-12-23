@@ -56,58 +56,58 @@ function App() {
     <Header />
     <Switch>
       {/* HOME */}
-    <Route exact path="/" component={Home} />
-    <Route exact path='/contact-us' component={ContactPage}/>
-    <Route exact path='/about-us' component={AboutPage}/>
+    <Route exact path="/eko-hotel" component={Home} />
+    <Route exact path='/eko-hotel/contact-us' component={ContactPage}/>
+    <Route exact path='/eko-hotel/about-us' component={AboutPage}/>
     {/* HOTELS */}
-    <Route exact path='/our-hotels' component={OurHotels}/>
-    <Route exact path='/eko-gardens' component={EkoGarden}/>
-    <Route exact path='/eko-hotels' component={EkoHotel}/>
-    <Route exact path='/eko-suites' component={EkoSuites}/>
-    <Route exact path='/eko-signature' component={EkoSignature}/>
-    <Route exact path='/superior-room' component={GardenSuperior}/>
-    <Route exact path='/classic-room' component={GardenClassic}/>
-    <Route exact path='/classic-superior-room' component={ClassicSuperior}/>
-    <Route exact path='/atlantic-superior-room' component={AtlanticSuperior}/>
-    <Route exact path='/classic-suites' component={ClassicSuites}/>
-    <Route exact path='/diplomatic-suites' component={DiplomaticSuites}/>
-    <Route exact path='/presidential-suites' component={PresidentialSuites}/>
-    <Route exact path='/deluxe-room' component={DeluxeRoom}/>
-    <Route exact path='/studio-suites' component={StudioSuites}/>
-    <Route exact path='/executive-suites' component={ExecutiveSuites}/>
-    <Route exact path='/club-suites' component={ClubSuite}/>
-    <Route exact path='/premium-suites' component={PremiumSuite}/>
-    <Route exact path='/signature-suites' component={SignatureSuite}/>
-    <Route exact path='/signature-presidential-suites' component={SigPresSuite}/>
+    <Route exact path='/eko-hotel/our-hotels' component={OurHotels}/>
+    <Route exact path='/eko-hotel/eko-gardens' component={EkoGarden}/>
+    <Route exact path='/eko-hotel/eko-hotels' component={EkoHotel}/>
+    <Route exact path='/eko-hotel/eko-suites' component={EkoSuites}/>
+    <Route exact path='/eko-hotel/eko-signature' component={EkoSignature}/>
+    <Route exact path='/eko-hotel/superior-room' component={GardenSuperior}/>
+    <Route exact path='/eko-hotel/classic-room' component={GardenClassic}/>
+    <Route exact path='/eko-hotel/classic-superior-room' component={ClassicSuperior}/>
+    <Route exact path='/eko-hotel/atlantic-superior-room' component={AtlanticSuperior}/>
+    <Route exact path='/eko-hotel/classic-suites' component={ClassicSuites}/>
+    <Route exact path='/eko-hotel/diplomatic-suites' component={DiplomaticSuites}/>
+    <Route exact path='/eko-hotel/presidential-suites' component={PresidentialSuites}/>
+    <Route exact path='/eko-hotel/deluxe-room' component={DeluxeRoom}/>
+    <Route exact path='/eko-hotel/studio-suites' component={StudioSuites}/>
+    <Route exact path='/eko-hotel/executive-suites' component={ExecutiveSuites}/>
+    <Route exact path='/eko-hotel/club-suites' component={ClubSuite}/>
+    <Route exact path='/eko-hotel/premium-suites' component={PremiumSuite}/>
+    <Route exact path='/eko-hotel/signature-suites' component={SignatureSuite}/>
+    <Route exact path='/eko-hotel/signature-presidential-suites' component={SigPresSuite}/>
     {/* DINING PAGE */}
-    <Route exact path='/dining' component={DiningPage}/>
-    <Route exact path='/sky-restaurant' component={SkyRestaurant}/>
-    <Route exact path='/crossroads-restaurant' component={CrossRoads}/>
-    <Route exact path='/lagos-irish-pub' component={LagosIrish}/>
-    <Route exact path='/88-restaurant' component={Eighty8Restaurant}/>
-    <Route exact path='/prime-restaurant' component={PrimeRestaurant}/>
-    <Route exact path='/red-restaurant' component={RedRestaurant}/>
-    <Route exact path='/kuramo-sports-cafe' component={KuramoSportsCafe}/>
-    <Route exact path='/lagoon-breeze' component={LagoonBreeze}/>
-    <Route exact path='/calabash-bar' component={CalabashBar}/>
+    <Route exact path='/eko-hotel/dining' component={DiningPage}/>
+    <Route exact path='/eko-hotel/sky-restaurant' component={SkyRestaurant}/>
+    <Route exact path='/eko-hotel/crossroads-restaurant' component={CrossRoads}/>
+    <Route exact path='/eko-hotel/lagos-irish-pub' component={LagosIrish}/>
+    <Route exact path='/eko-hotel/88-restaurant' component={Eighty8Restaurant}/>
+    <Route exact path='/eko-hotel/prime-restaurant' component={PrimeRestaurant}/>
+    <Route exact path='/eko-hotel/red-restaurant' component={RedRestaurant}/>
+    <Route exact path='/eko-hotel/kuramo-sports-cafe' component={KuramoSportsCafe}/>
+    <Route exact path='/eko-hotel/lagoon-breeze' component={LagoonBreeze}/>
+    <Route exact path='/eko-hotel/calabash-bar' component={CalabashBar}/>
     {/* MEETINGS & EVENTS */}
-    <Route exact path='/meetings-and-events' component={MeetingsEvents}/>
-    <Route exact path='/grand-ballroom' component={GrandBallRoom}/>
-    <Route exact path='/eko-convention-center' component={ConventionCentre}/>
-    <Route exact path='/fantasia' component={Fantasia}/>
-    <Route exact path='/meeting-rooms' component={MeetingRooms}/>
+    <Route exact path='/eko-hotel/meetings-and-events' component={MeetingsEvents}/>
+    <Route exact path='/eko-hotel/grand-ballroom' component={GrandBallRoom}/>
+    <Route exact path='/eko-hotel/eko-convention-center' component={ConventionCentre}/>
+    <Route exact path='/eko-hotel/fantasia' component={Fantasia}/>
+    <Route exact path='/eko-hotel/meeting-rooms' component={MeetingRooms}/>
     {/* RECREATION SERVICES */}
-    <Route exact path='/recreational-services' component={RecreationPage}/>
-    <Route exact path='/basketball-court' component={BballCourt}/>
-    <Route exact path='/tennis-court' component={TennisCourt}/>
-    <Route exact path='/volleyball-court' component={VballCourt}/>
-    <Route exact path='/swimming-pool' component={SwimmingPool}/>
-    <Route exact path='/gymnasium' component={Gymnasium}/>
-    <Route exact path='/saloon-and-nail-studio' component={Saloon}/>
-    <Route exact path='/spa' component={Spa}/>
+    <Route exact path='/eko-hotel/recreational-services' component={RecreationPage}/>
+    <Route exact path='/eko-hotel/basketball-court' component={BballCourt}/>
+    <Route exact path='/eko-hotel/tennis-court' component={TennisCourt}/>
+    <Route exact path='/eko-hotel/volleyball-court' component={VballCourt}/>
+    <Route exact path='/eko-hotel/swimming-pool' component={SwimmingPool}/>
+    <Route exact path='/eko-hotel/gymnasium' component={Gymnasium}/>
+    <Route exact path='/eko-hotel/saloon-and-nail-studio' component={Saloon}/>
+    <Route exact path='/eko-hotel/spa' component={Spa}/>
     {/* Others */}
-    <Route exact path='/gallery' component={GalleryPage}/>
-    <Route exact path='/terms-and-conditions' component={Terms}/>
+    <Route exact path='/eko-hotel/gallery' component={GalleryPage}/>
+    <Route exact path='/eko-hotel/terms-and-conditions' component={Terms}/>
     </Switch>
     <Footer />
     </BrowserRouter>
