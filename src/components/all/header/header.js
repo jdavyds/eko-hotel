@@ -528,7 +528,7 @@ function Header() {
                 </DropdownItem >
             </DropdownMenu>
             </Dropdown>
-            <Link to='gallery'>GALLERY</Link>
+            <Link to='/gallery'>GALLERY</Link>
             </nav>
             <nav className="hambuger-main">
             <FontAwesomeIcon icon={hambuger ? faBars : faTimes } className='hambuger-icon' onClick={handleHambuger}/>
