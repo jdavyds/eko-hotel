@@ -83,7 +83,6 @@
     text-decoration: rgb(8,48,64);
 }
 .inverted {
-    min-width: 280px;
     /* width: 22%; */
     margin: 0 auto;
     display: flex;
