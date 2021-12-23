@@ -451,7 +451,7 @@ function Header() {
             </DropdownMenu>
             </Dropdown>
             </nav>
-            <Link to='/eko-hotel-and-suites'> 
+            <Link to='/'> 
             <img src={logo} alt="logo" className='logo'/>
             </Link>
             <nav className='services'>

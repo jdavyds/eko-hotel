@@ -1,5 +1,5 @@
 import './App.css';
-import { HashRouter, Switch, Route} from 'react-router-dom'
+import { Switch, Route} from 'react-router-dom'
 import Footer from './components/all/footer/footer';
 import Header from './components/all/header/header';
 import Home from './components/home/home';
@@ -52,11 +52,10 @@ import Terms from './components/all/terms & cond/terms';
 function App() {
   return (
     <>
-    <HashRouter >
     <Header />
     <Switch>
       {/* HOME */}
-    <Route exact path="/eko-hotel-and-suites" component={Home} />
+    <Route exact path="/" component={Home} />
     <Route exact path='/contact-us' component={ContactPage}/>
     <Route exact path='/about-us' component={AboutPage}/>
     {/* HOTELS */}
@@ -110,7 +109,6 @@ function App() {
     <Route exact path='/terms-and-conditions' component={Terms}/>
     </Switch>
     <Footer />
-    </HashRouter>
     </>
   );
 }
