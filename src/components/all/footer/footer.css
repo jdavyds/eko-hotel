@@ -67,7 +67,7 @@ footer {
     border-left: none;
     font-size: 22px;
     width: 2.2em;
-    height: 2em;
+    height: inherit;
 }
 .footer .right .icons {
     display: flex;
