@@ -67,7 +67,7 @@
     opacity: 1;
     position: relative;
     top: 70%;
-    font-size: 30px;
+    font-size: 28px;
     padding: 10px 0;
     margin-bottom: 30px;
     border-bottom: 2px solid rgb(205, 162, 116);
@@ -77,12 +77,12 @@
     opacity: 0;
     margin: 50px 0 53px 0;
     line-height: 1.5em;
-    font-size: 22px;
+    font-size: 19px;
     transition: 1s ease-in;
 }
 .hotels .caption a {
     opacity: 0;
-    font-size: 18px;
+    font-size: 16px;
     color: rgb(205, 162, 116);
     letter-spacing: 1px;
     text-decoration: none;
@@ -103,7 +103,7 @@
     margin: 0 0 5px 3px;
     display: flex;
     align-items: center;
-    font-size: 27px;
+    font-size: 25px;
     font-weight: 100;
 }
 .hotels button {
