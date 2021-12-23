@@ -1,0 +1,26 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+body {
+    overflow-x: hidden;
+    font-family: 'Poppins','Roboto', sans-serif;
+}
+.blue {
+    font-size: 1.8em;
+    font-weight: 600;
+    color: rgb(8,48,64);
+    margin: 10px;
+}
+.grey {
+    font-size: 1.8em;
+    font-weight: 600;
+    color: rgb(255,255,255);
+    margin: 10px;
+}
+.brown {
+    font-size: 1.8em;
+    font-weight: 600;
+    color: rgb(198,154,106);
+}

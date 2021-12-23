@@ -1,0 +1,144 @@
+.spa {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+.spa .cont {
+    position: relative;
+    height: 200px;
+    letter-spacing: 1px;
+    background: url(../../../img/gallery_bg.jpg);
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-position-y: 50%;
+    background-size: cover;
+    z-index: -3;
+}
+.spa .cont::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(26, 24, 24, 0.6);
+    z-index: -1;
+}
+.spa .cont h1,
+.spa .cont nav {
+    margin-left: 130px;
+    z-index: 1000;
+}
+.spa .cont h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 70px;
+    font-weight: 800;
+    color: white;
+    padding: 15px 0;
+}
+.spa .cont nav {
+    font-size: 20px;
+    color: rgb(189, 179, 160);
+}
+.spa .cont nav a{
+    text-decoration: none;
+    color: rgb(198,154,106);
+}
+.spa-p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 90px;
+}
+.spa-hdr {
+    background: white;
+    width: 100%;
+    padding: 30px 0;
+    font-size: 35px;
+    line-height: 1.1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+.spa-p span {
+    width: 100px;
+    border: 1px solid rgb(198,154,106);
+    background: rgb(198,154,106);
+    margin: 2px;
+}
+.spa span:nth-of-type(2) {
+    width: 300px;
+}
+.spa-gallery {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.spa-gallery nav {
+    width: 85%;
+}
+.spa-gallery img {
+    width: 100%;
+    height: 100%;
+}
+.spa1,
+.spa2,
+.spa3,
+.spa4 {
+    display: none;
+}
+.spa1.active,
+.spa2.active,
+.spa3.active,
+.spa4.active {
+    transition: 0.3s ease-in-out;
+    display: block;
+}
+.spa-gallery .dot1,
+.spa-gallery .dot2,
+.spa-gallery .dot3,
+.spa-gallery .dot4 {
+    margin: 20px 5px 0px 5px;
+    color: rgb(214, 202, 202);
+}
+.spa-gallery .dot1:hover,
+.spa-gallery .dot2:hover,
+.spa-gallery .dot3:hover,
+.spa-gallery .dot4:hover {
+    color: grey;
+}
+.spa-gallery .dot1.active,
+.spa-gallery .dot2.active,
+.spa-gallery .dot3.active,
+.spa-gallery .dot4.active {
+    color: grey;
+}
+.spa-info {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 85%;
+}
+.spa-info div {
+    background: rgb(8,48,64);
+    padding: 5px 20px;
+    margin: 10px 0;
+    width: fit-content;
+    font-size: 22px;
+    color: white;
+}
+.spa-info p {
+    font-size: 20px;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+.spa-info li {
+    margin: 10px 0 0 50px;
+    color: rgb(6, 33, 44);
+}

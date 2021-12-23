@@ -1,0 +1,148 @@
+.prime-restaurant {
+    background: rgb(248, 246, 246);
+    display: flex;
+    flex-direction: column;
+}
+.prime-res-p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 90px;
+}
+.prime-res-logo {
+    background: white;
+    width: 100%;
+    padding: 20px 0 10px;
+    line-height: 1.1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.prime-res-logo img {
+    width: 300px;
+    height: 120px;
+}
+.prime-res-p span {
+    width: 100px;
+    border: 1px solid rgb(198,154,106);
+    background: rgb(198,154,106);
+    margin: 2px;
+}
+.prime-res-p span:nth-of-type(2) {
+    width: 300px;
+}
+.prime-restaurant main {
+    background: white;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.prime-restaurant main .prime-ga {
+    background: rgb(248, 246, 246);
+    width: 100vw;
+    padding-bottom: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.prime-restaurant .prime-gallery {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.prime-restaurant .prime-gallery figure {
+    position: relative;
+    width: 85%;
+    background: rgb(8,48,64);
+}
+.prime-restaurant .prime-gallery img {
+    width: 100%;
+    object-fit: cover;
+}
+.prime-restaurant .prime-gallery figcaption {
+    font-size: 21px;
+    padding: 15px 30px;
+    color: white;
+}
+.prime-restaurant .prime-gallery button {
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 15px;
+    background: rgb(8,48,64);
+    z-index: 33;
+}
+.prime-restaurant .back {
+    left: 15px;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+}
+.prime-restaurant .forward {
+    right: 15px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.prime-restaurant .forward-icon,
+.prime-restaurant .back-icon {
+    font-size: 40px;
+}
+.prime-restaurant .prime-album {
+    width: 85%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px;
+}
+.prime-restaurant .prime-album div {
+    height: 120px;
+    position: relative;
+}
+.prime-restaurant .prime-album div::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(253, 251, 251, 0.5);
+}
+.prime-restaurant .prime-album div:hover::before {
+    background: none;
+}
+.prime-restaurant .prime-album div.active::before {
+    background: none;
+}
+.prime-restaurant .prime-album div img {
+    height: 100%;
+    width: 100%;
+}
+.prime-restaurant .prime-info {
+    width: 85%;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+}
+.prime-restaurant .prime-info div {
+    background: rgb(8,48,64);
+    padding: 10px 20px;
+    margin: 10px 0 20px 0;
+    width: fit-content;
+    font-size: 22px;
+    color: white;
+}
+.prime-restaurant .prime-info p {
+    line-height: 1.5;
+    font-size: 20px;
+    padding-right: 30px;
+    margin: 10px 0;
+}

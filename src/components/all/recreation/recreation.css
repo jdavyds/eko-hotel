@@ -1,0 +1,94 @@
+.recreation {
+    background: url(../../img/testimonials_bg.png) repeat left top;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px;
+}
+.rct-p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.rct-hdr {
+    margin: 95px 0 30px 0;
+    font-size: 30px;
+    line-height: 1.1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+.rct-p span {
+    width: 100px;
+    border: 1px solid rgb(198,154,106);
+    background: rgb(198,154,106);
+    margin: 2px;
+}
+.rct-p span:nth-of-type(2) {
+    width: 300px;
+}
+.rct-div {
+    width: 90%;
+    padding: 10px 20px;
+    display: flex;
+    align-self: center;
+    align-items: flex-start;
+    overflow: hidden;
+}
+.rct-sec {
+    display: flex;
+    background: whitesmoke;
+    min-width: 47%;
+    width: 47%;
+    min-height: 300px;
+    height: auto;
+    margin: 10px 30px;
+    align-items: center;
+    transform: translateX(0);
+    transition: transform 0.5s ease-in-out;
+}
+.rct-sec img {
+    object-fit: cover;
+    height: 270px;
+    margin-left: -15px;
+}
+.rct-sec div {
+    display: flex;
+    align-self: flex-start;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 35px;
+    padding: 35px 12px 35px 0;
+}
+.rct-sec div h4 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(8,48,64);
+    margin-bottom: 35px;
+}
+.rct-sec div h4 a {
+    color: inherit;
+    text-decoration: none;
+}
+.rct-sec div p {
+    color: rgb(67,67,67);
+    font-size: 21.6px;
+    line-height: 1.7em;
+}
+.rct-nav {
+    display: flex;
+    justify-content: center;
+}
+.nav-dot {
+    cursor: pointer;
+    margin: 60px 10px;
+    color: whitesmoke;
+}
+.nav-dot.active {
+    opacity: 0.5;
+}

@@ -1,0 +1,218 @@
+.contact {
+    background: rgb(248,248,248);
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+.contact-p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.contact-hdr {
+    margin: 95px 0 30px 0;
+    font-size: 30px;
+    line-height: 1.1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+}
+.contact-p span {
+    width: 100px;
+    border: 1px solid rgb(198,154,106);
+    background: rgb(198,154,106);
+    margin: 2px;
+}
+.contact span:nth-of-type(2) {
+    width: 300px;
+}
+.map-cont {
+    height: 560px;
+    background: violet;
+}
+.contact main {
+    width: 100%;
+    display: flex;
+}
+.contact main .left {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+.contact-details {
+    background: white;
+    width: 74%;
+    padding: 50px 40px 50px 60px;
+    margin-left: 130px;
+    margin-top: -400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    box-shadow: 0 0 10px 0 grey;
+    z-index: 99;
+}
+.contact-details h4 {
+    color: rgb(205,162,116);
+    font-size: 23px;
+    font-weight: 400;
+    display: flex;
+    align-self: center;
+}
+.contact-details .phone,
+.contact-details .email,
+.contact-details .address {
+    margin: 40px 0;
+    display: flex;
+    line-height: 1.7;
+}
+.contact-details .phone section,
+.contact-details .email section,
+.contact-details .address section {
+    font-size: 20px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.contact-details h3 {
+    font-weight: 600;
+    font-size: 22px;
+    color: rgb(61, 57, 57);
+}
+#contact-icon {
+    font-size: 50px;
+    color: rgb(205,162,116);
+}
+.contact-question {
+    width: 80%;
+    color: rgb(8,48,64);
+    font-size: 80px;
+    font-weight: 650;
+    line-height: 1.1;
+    margin: 70px 0 0 130px;
+    display: flex;
+    flex-direction: column;
+}
+.contact-question .align-centre {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 95px;
+}
+.contact-question .align-left {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+}
+.contact-question .contact-que {
+    display: none;
+}
+.contact main .right {
+    background: white;
+    width: 45%;
+    height: fit-content;
+    margin: 50px 0 0 0;
+    display: flex;
+    justify-content: left;
+    box-shadow: 0 0 10px 0 grey;
+}
+.contact .right form {
+    padding: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.contact form h4 {
+    color: rgb(198,154,106);
+    font-size: 23px;
+    font-weight: 400;
+    letter-spacing: 6px;
+    margin-bottom: 80px;
+}
+.contact form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 25px;
+    font-size: 18px;
+    border: 1px solid rgb(128, 128, 128, 0.6);
+}
+.contact form textarea {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    margin-bottom: 25px;
+    font-size: 18px;
+    border: 1px solid rgb(128, 128, 128, 0.6);
+}
+.contact form p {
+    font-size: 18px;
+    color:  rgb(128, 128, 128, 0.9);
+    margin-bottom: 25px;
+}
+.contact form button {
+    display: flex;
+    align-self: flex-start;
+    justify-content: center;
+    align-items: center;
+    width: 230px;
+    height: 60px;
+    font-size: 19px;
+    font-weight: 600;
+    color: white;
+    background: rgb(198,154,106);
+    border: none;
+}
+@media only screen and (max-width: 900px) {
+    .contact-hdr {
+        font-size: 20px;
+    }
+    .contact main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact main .left {
+        width: 95%;
+    }
+    .contact .contact-details {
+        width: 100%;
+        margin: -70px 0 0 0;
+        padding: 30px;
+    }
+    .contact-details h4 {
+        font-size: 20;
+    }
+    .contact-details .phone,
+    .contact-details .email,
+    .contact-details .address {
+        margin: 10px;
+    }
+    .contact-details .phone section,
+    .contact-details .email section,
+    .contact-details .address section {
+        margin-left: 15px;
+    }
+    #contact-icon {
+        font-size: 20px;
+    }
+    .contact-question {
+        width: 100%;
+        font-size: 55px;
+        margin: 50px 0;
+    }
+    .contact-question .align-centre,
+    .contact-question .align-left {
+        display: none;
+    }
+    .contact-question .contact-que {
+        display: flex;
+    }
+    .contact main .right {
+        width: 95%;
+        margin-top: 20px;
+    }
+}

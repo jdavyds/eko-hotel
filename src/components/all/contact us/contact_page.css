@@ -1,0 +1,157 @@
+.contact-page {
+    width: 100%;
+    color: rgb(49, 41, 43);
+}
+.contact-page .cont {
+    position: relative;
+    height: 200px;
+    letter-spacing: 1px;
+    background: url(../../img/contact-us.jpg);
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-position-y: 15%;
+    background-size: cover;
+    z-index: -3;
+}
+.contact-page .cont::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(26, 24, 24, 0.6);
+    z-index: -1;
+}
+.contact-page .cont h1,
+.contact-page .cont nav {
+    margin-left: 130px;
+    z-index: 1000;
+}
+.contact-page .cont h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 70px;
+    font-weight: 500;
+    color: white;
+    padding: 15px 0;
+}
+.contact-page .cont nav {
+    font-size: 20px;
+    color: rgb(189, 179, 160);
+}
+.contact-page .cont nav a{
+    text-decoration: none;
+    color: rgb(198,154,106);
+}
+.contact-page .h1 {
+    font-size: 80px;
+    line-height: 1.2;
+    margin: 100px 250px 50px 130px;
+}
+.contact-page main {
+    display: flex;
+    width: 100vw;
+    margin-bottom: 80px;
+}
+.contact-page  .contact-form {
+    background: white;
+    width: 50%;
+    height: fit-content;
+    border: 1px solid rgb(233, 223, 223);
+    margin: 0px 50px 0 130px;
+    display: flex;
+    justify-content: left;
+}
+.contact-page .contact-form form {
+    padding: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.contact-page form h4 {
+    color: rgb(198,154,106);
+    font-size: 23px;
+    font-weight: 400;
+    letter-spacing: 6px;
+    margin-bottom: 80px;
+}
+.contact-page form input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 25px;
+    font-size: 17px;
+    border: 1px solid rgb(128, 128, 128, 0.6);
+}
+.contact-page form textarea {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    margin-bottom: 25px;
+    font-size: 18px;
+    border: 1px solid rgb(128, 128, 128, 0.6);
+}
+.contact-page form p {
+    font-size: 18px;
+    color:  rgb(128, 128, 128, 0.9);
+    margin-bottom: 25px;
+}
+.contact-page form button {
+    display: flex;
+    align-self: flex-start;
+    justify-content: center;
+    align-items: center;
+    width: 230px;
+    height: 60px;
+    font-size: 19px;
+    font-weight: 600;
+    color: white;
+    background: rgb(198,154,106);
+    border: none;
+}
+.contact-page main .contact-page-info {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+.contact-page-details {
+    background: white;
+    width: 77%;
+    padding: 50px 40px 50px 60px;
+    border: 1px solid rgb(233, 223, 223);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    z-index: 99;
+}
+.contact-page-details h4 {
+    color: rgb(205,162,116);
+    font-size: 23px;
+    font-weight: 400;
+    display: flex;
+    align-self: center;
+}
+.contact-page-details .phone,
+.contact-page-details .email,
+.contact-page-details .address {
+    margin: 40px 0;
+    display: flex;
+    line-height: 1.7;
+}
+.contact-page-details .phone section,
+.contact-page-details .email section,
+.contact-page-details .address section {
+    font-size: 20px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.contact-page-details h3 {
+    font-weight: 600;
+    font-size: 22px;
+}
+#contact-icon {
+    font-size: 50px;
+    color: rgb(205,162,116);
+}

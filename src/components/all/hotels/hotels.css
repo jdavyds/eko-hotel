@@ -1,0 +1,149 @@
+.hotels {
+    background: rgb(248,248,248);
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 160px;
+}
+.htl-p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.htl-hdr {
+    margin: 95px 0 30px 0;
+    font-size: 30px;
+    line-height: 1.1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+.htl-p span {
+    width: 100px;
+    border: 1px solid rgb(198,154,106);
+    background: rgb(198,154,106);
+    margin: 2px;
+}
+.hotels span:nth-of-type(2) {
+    width: 300px;
+}
+.hotels .rooms {
+    width: 100%;
+    min-height: 110vh;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.hotels .room {
+    width: 41%;
+    margin: 25px;
+    min-height: 53%;
+    height: fit-content;
+    position: relative;
+}
+.hotels .room img {
+    width: 100%;
+    height: 100%;
+}
+.hotels .caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    transition: 0.5s ease-in;
+}
+.hotels .room.hover .caption {
+    background: rgb(0, 0, 0, 0.8)
+}
+.hotels .caption h2 {
+    opacity: 1;
+    position: relative;
+    top: 70%;
+    font-size: 30px;
+    padding: 10px 0;
+    margin-bottom: 30px;
+    border-bottom: 2px solid rgb(205, 162, 116);
+    transition: 500ms ease-in;
+}
+.hotels .caption p {
+    opacity: 0;
+    margin: 50px 0 53px 0;
+    line-height: 1.5em;
+    font-size: 22px;
+    transition: 1s ease-in;
+}
+.hotels .caption a {
+    opacity: 0;
+    font-size: 18px;
+    color: rgb(205, 162, 116);
+    letter-spacing: 1px;
+    text-decoration: none;
+    transition: 1s ease-in;
+    display: flex;
+    align-items: center;
+}
+.nav-next {
+    margin: 0;
+}
+.hotels .room.hover  p, .room.hover a{
+    opacity: 1;
+}
+.hotels .room.hover h2 {
+    top: 10px;
+}
+.hotels .caption span {
+    margin: 0 0 5px 3px;
+    display: flex;
+    align-items: center;
+    font-size: 27px;
+    font-weight: 100;
+}
+.hotels button {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 65px;
+    width: 250px;
+    height: 60px;
+    font-size: 19px;
+    font-weight: 600;
+    color: white;
+    background: rgb(198,154,106);
+    border: none;
+}
+.hotels button:hover {
+    border: 1px solid black;
+    background: white;
+    color: rgb(8,48,64);
+}
+.hotels button a {
+    color: inherit;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media only screen and (max-width: 900px) {
+    .htl-hdr {
+        font-size: 22px;
+    }
+    .hotels .rooms {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .hotels .room {
+        width: 96%;
+        margin: inherit 0;
+    }
+}

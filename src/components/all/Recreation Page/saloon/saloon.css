@@ -1,0 +1,144 @@
+.saloon {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+.saloon .cont {
+    position: relative;
+    height: 200px;
+    letter-spacing: 1px;
+    background: url(../../../img/gallery_bg.jpg);
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-position-y: 50%;
+    background-size: cover;
+    z-index: -3;
+}
+.saloon .cont::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(26, 24, 24, 0.6);
+    z-index: -1;
+}
+.saloon .cont h1,
+.saloon .cont nav {
+    margin-left: 130px;
+    z-index: 1000;
+}
+.saloon .cont h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 70px;
+    font-weight: 800;
+    color: white;
+    padding: 15px 0;
+}
+.saloon .cont nav {
+    font-size: 20px;
+    color: rgb(189, 179, 160);
+}
+.saloon .cont nav a{
+    text-decoration: none;
+    color: rgb(198,154,106);
+}
+.saloon-p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 90px;
+}
+.saloon-hdr {
+    background: white;
+    width: 100%;
+    padding: 30px 0;
+    font-size: 35px;
+    line-height: 1.1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+.saloon-p span {
+    width: 100px;
+    border: 1px solid rgb(198,154,106);
+    background: rgb(198,154,106);
+    margin: 2px;
+}
+.saloon span:nth-of-type(2) {
+    width: 300px;
+}
+.saloon-gallery {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.saloon-gallery nav {
+    width: 85%;
+}
+.saloon-gallery img {
+    width: 100%;
+    height: 100%;
+}
+.saloon1,
+.saloon2,
+.saloon3,
+.saloon4 {
+    display: none;
+}
+.saloon1.active,
+.saloon2.active,
+.saloon3.active,
+.saloon4.active {
+    transition: 0.3s ease-in-out;
+    display: block;
+}
+.saloon-gallery .dot1,
+.saloon-gallery .dot2,
+.saloon-gallery .dot3,
+.saloon-gallery .dot4 {
+    margin: 20px 5px 0px 5px;
+    color: rgb(214, 202, 202);
+}
+.saloon-gallery .dot1:hover,
+.saloon-gallery .dot2:hover,
+.saloon-gallery .dot3:hover,
+.saloon-gallery .dot4:hover {
+    color: grey;
+}
+.saloon-gallery .dot1.active,
+.saloon-gallery .dot2.active,
+.saloon-gallery .dot3.active,
+.saloon-gallery .dot4.active {
+    color: grey;
+}
+.saloon-info {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 85%;
+}
+.saloon-info div {
+    background: rgb(8,48,64);
+    padding: 5px 20px;
+    margin: 10px 0;
+    width: fit-content;
+    font-size: 22px;
+    color: white;
+}
+.saloon-info p {
+    font-size: 20px;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+.saloon-info li {
+    margin: 10px 0 0 50px;
+    color: rgb(6, 33, 44);
+}

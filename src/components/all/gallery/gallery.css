@@ -1,0 +1,146 @@
+.gallery {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 90px;
+}
+.glr-p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.glr-hdr {
+    margin: 95px 0 30px 0;
+    font-size: 30px;
+    line-height: 1.1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+.glr-p span {
+    width: 100px;
+    border: 1px solid rgb(198,154,106);
+    background: rgb(198,154,106);
+    margin: 2px;
+}
+.gallery span:nth-of-type(2) {
+    width: 300px;
+}
+.glr-main {
+    width: 99%;
+    display: flex;
+    align-self: center;
+    align-items: flex-start;
+    overflow: hidden;
+}
+.glr-item {
+    min-width: 24%;
+    height: 300px;
+    margin: 0 8px;
+    transform: translateX(0);
+    transition: transform 0.5s ease-in-out;
+}
+.glr-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    position: relative;
+}
+.glr-item::before {
+    content: '+';
+    opacity: 0;
+    background: rgb(44, 42, 42);
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.3s ease-in-out;
+    z-index: 33;
+}
+.glr-item:hover::before {
+    opacity: 0.7;
+}
+.glr-btn,
+.glr-nav {
+    display: flex;
+    justify-content: center;
+}
+.glr-btn button {
+    background: rgb(173, 44, 44);
+    color: #fff;
+    margin: 20px 6px 0 6px;
+    padding: 7px 12px;
+    font-size: 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.glr-btn button.inactive {
+    opacity: 0.5;
+}
+.glr-btn button:hover {
+    background: grey;
+}
+.glr-dot {
+    cursor: pointer;
+    margin: 10px 5px;
+    color: grey;
+    opacity: 0.5;
+}
+.glr-dot.active {
+    opacity: 1;
+}
+.modal {
+    position: relative;
+}
+.modal-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.7s ease-in;
+    width: 55%;
+    background: #fff;
+    border: 5px solid #fff;
+    border-radius: 5px;
+}
+#modal-nav {
+    width: 27.5%;
+    height: 78%;
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    text-align: left;
+}
+.prev, .next {
+    color: white;
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    opacity: 0;
+    transform: translate(0, -50%);
+    transition: opacity 0.6s ease-in-out;
+    z-index: 99;
+}
+.prev {
+    left: 23%;
+    padding-right: 360px;
+}
+.prev.active,
+.next.active {
+    opacity: 0.9;
+}
+.next {
+    right: 23%;
+    padding-left: 360px;
+}

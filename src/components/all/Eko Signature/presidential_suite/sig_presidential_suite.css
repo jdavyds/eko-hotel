@@ -1,0 +1,173 @@
+.signature-presidential-suite {
+    background: rgb(248, 246, 246);
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 60px;
+}
+.signature-presidential-p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 90px;
+}
+.signature-presidential-hdr {
+    background: white;
+    width: 100%;
+    padding: 30px 0;
+    font-size: 40px;
+    line-height: 1.1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+.signature-presidential-p span {
+    width: 100px;
+    border: 1px solid rgb(198,154,106);
+    background: rgb(198,154,106);
+    margin: 2px;
+}
+.signature-presidential-p span:nth-of-type(2) {
+    width: 300px;
+}
+.signature-presidential-suite-gallery {
+    background: white;
+    width: 85%;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(214, 210, 210);
+}
+.signature-presidential-suite-gallery nav {
+    width: 100%;
+}
+.signature-presidential-suite-gallery img {
+    width: 100%;
+}
+.esSignaturePres1,
+.esSignaturePres2,
+.esSignaturePres3, 
+.esSignaturePres4, 
+.esSignaturePres5,
+.esSignaturePres6, 
+.esSignaturePres7 {
+    display: none;
+}
+.esSignaturePres1.active,
+.esSignaturePres2.active,
+.esSignaturePres3.active,
+.esSignaturePres4.active,
+.esSignaturePres5.active,
+.esSignaturePres6.active,
+.esSignaturePres7.active {
+    transition: 0.3s ease-in-out;
+    display: block;
+}
+.signature-presidential-suite-gallery .dot1,
+.signature-presidential-suite-gallery .dot2,
+.signature-presidential-suite-gallery .dot3,
+.signature-presidential-suite-gallery .dot4,
+.signature-presidential-suite-gallery .dot5,
+.signature-presidential-suite-gallery .dot6,
+.signature-presidential-suite-gallery .dot7 {
+    margin: 20px 5px 0px 5px;
+    color: rgb(231, 221, 221);
+}
+.signature-presidential-suite-gallery .dot1.active,
+.signature-presidential-suite-gallery .dot2.active,
+.signature-presidential-suite-gallery .dot3.active,
+.signature-presidential-suite-gallery .dot4.active,
+.signature-presidential-suite-gallery .dot5.active,
+.signature-presidential-suite-gallery .dot6.active,
+.signature-presidential-suite-gallery .dot7.active {
+    color: grey;
+}
+.signature-presidential-suite-info {
+    width: 85%;
+    margin: 50px 0;
+    display: flex;
+    align-self: center;
+}
+.signature-presidential-suite-desc {
+    width: 70%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    margin-right: 40px;
+    padding: 50px;
+    background: white;
+    border: 1px solid rgb(214, 210, 210);
+}
+.signature-presidential-suite-desc h3 {
+    margin: 30px 0 30px 0;
+    padding: 15px 0;
+    font-size: 30px;
+    color: rgb(8,48,64);
+    border-top: 1px solid rgb(198,154,106);
+    border-bottom: 1px solid rgb(198,154,106);
+}
+.signature-presidential-suite-desc h6 {
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(198,154,106);
+    margin-bottom: 20px;
+}
+.signature-presidential-suite-desc p {
+    font-size: 18px;
+    text-align: left;
+    line-height: 1.9em;
+}
+.signature-presidential-suite-desc ul {
+    margin: 25px 50px;
+}
+.signature-presidential-suite-desc strong {
+    font-weight: 600;
+    margin-right: 10px;
+}
+.signature-presidential-suite-desc button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 60px;
+    font-size: 19px;
+    font-weight: 600;
+    color: white;
+    background: rgb(198,154,106);
+    border: none;
+    transition: 0.3s ease-out;
+}
+.signature-presidential-suite-features {
+    width: 23%;
+    height: fit-content;
+    padding: 50px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(214, 210, 210);
+}
+.signature-presidential-suite-features h6 {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: rgb(198,154,106);
+    letter-spacing: 3px;
+}
+.signature-presidential-suite-features div {
+    margin: 20px 0;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.feat-icon {
+    color: rgb(198,154,106);
+    font-size: 30px;
+    min-width: 50px;
+    margin-right: 20px;
+}

@@ -1,0 +1,133 @@
+.about {
+    display: flex;
+    flex-direction: column;
+}
+.abt-p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.abt-hdr {
+    margin: 100px 0 30px 0;
+    font-size: 30px;
+    line-height: 1.1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+.about span {
+    width: 100px;
+    border: 1px solid rgb(198,154,106);
+    background: rgb(48, 38, 28);
+    margin: 2px;
+}
+.about span:nth-of-type(2) {
+    width: 300px;
+}
+.abt-main {
+    display: flex;
+    margin: 0 7.5% 130px 0;
+}
+.abt-main section {
+    width: 50%;
+    min-height: 100vh;
+    display: flex;
+    line-height: 1.8;
+}
+.sky-view {
+    width: 100%;
+    height: 67%;
+    padding-left: 20px;
+    display: flex;
+    align-self: center;
+}
+.abt-main-section {
+    flex-direction: column;
+    text-align: left;
+    padding: 60px 60px 20px 60px;
+    box-shadow: 0 0 20px -5px rgb(177, 171, 171);
+}
+.abt-main-section h3 {
+    color: rgb(198,154,106);
+    font-size: 24px;
+    font-weight: 500;
+}
+.abt-main-section h2 {
+    color: rgb(8,48,64);
+    font-family: 'Oswald', sans-serif;
+    font-size: 37px;
+    font-weight: 500;
+    line-height: 1.1;
+    margin: 17px 0 40px;
+}
+.abt-main-section p {
+    color: rgb(16, 36, 44);
+    font-size: 20px;
+    margin: 0 0 10px;
+    line-height: 1.8em;
+}
+.abt-main-section button {
+    margin-top: 10px;
+    min-width: 30%;
+    width: fit-content;
+    height: 60px;
+    font-size: 19px;
+    font-weight: 600;
+    color: white;
+    background: rgb(198,154,106);
+    border: none;
+    transition: 0.3s ease-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.abt-main-section button:hover {
+    border: 1px solid black;
+    background: white;
+    color: rgb(8,48,64);
+}
+.abt-main-section button a {
+    color: inherit;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media only screen and (max-width: 900px) {
+    .abt-hdr {
+        font-size: 22px;
+    }
+    .abt-main {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .abt-main section {
+        width: 97%;
+        min-height: fit-content;
+    }
+    .sky-view {
+        padding: 0;
+    }
+    .abt-main section:last-of-type {
+        padding: 30px;
+        width: 94%;
+        min-height: fit-content;
+        margin-top: -30px;
+        background: white;
+        z-index: 999;
+    }
+    .abt-main-section h3 {
+        font-size: 20px;
+    }
+    .abt-main-section h2 {
+        font-size: 33px;
+        margin: 10px 0;
+    }
+}

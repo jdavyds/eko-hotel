@@ -1,0 +1,114 @@
+.meetings {
+    width: 100%;
+}
+.meetings .cont {
+    position: relative;
+    height: 200px;
+    letter-spacing: 1px;
+    background: url(../../../img/eko_garden_bg.jpg);
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-position-y: 60%;
+    background-size: cover;
+    z-index: -3;
+}
+.meetings .cont::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(26, 24, 24, 0.6);
+    z-index: -1;
+}
+.meetings .cont h1,
+.meetings .cont nav {
+    margin-left: 130px;
+    z-index: 1000;
+}
+.meetings .cont h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 70px;
+    font-weight: 800;
+    color: white;
+    padding: 15px 0;
+}
+.meetings .cont nav {
+    font-size: 20px;
+    color: rgb(189, 179, 160);
+}
+.meetings .cont nav a{
+    text-decoration: none;
+    color: rgb(198,154,106);
+}
+.meetings main {
+    padding: 130px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(41, 38, 38);
+}
+.meetings .meeting-room {
+    min-height: 400px;
+    margin: 30px 0;
+    display: flex;
+    align-items: center;
+}
+.meetings .meeting-room-img {
+    height: 100%;
+    width: 50%;
+}
+.meetings .meeting-room-img img {
+    width: 100%;
+    height: 100%;
+}
+.meetings .meeting-room-info {
+    width: 47%;
+    margin: auto 60px auto -60px;
+    padding: 30px;
+    background: white;
+    box-shadow: 0 0 13px 0 rgb(158, 153, 153, 0.7);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.meetings .meeting-room-info h4 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(233, 217, 217);
+    color: rgb(8,48,64);
+}
+.meetings .meeting-room-info p {
+    line-height: 2em;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+.meetings .meeting-room-info button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 60px;
+    font-size: 19px;
+    font-weight: 600;
+    color: white;
+    background: rgb(198,154,106);
+    border: none;
+    transition: 0.3s ease-out;
+}
+.meetings .meeting-room-info button:hover {
+    border: 1px solid black;
+    background: white;
+    color: rgb(8,48,64);
+}
+.meetings .meeting-room-info button a {
+    color: inherit;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

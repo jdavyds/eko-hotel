@@ -1,0 +1,120 @@
+footer {
+    width: 100%;
+    background: rgb(30,37,41);
+    color: white;
+}
+.footer {
+    display: flex;
+    padding: 130px;
+}
+.footer .left, .footer .right {
+    width: 25%;
+    padding: 30px auto;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: left;
+}
+.footer .centre {
+    width: 50%;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+}
+.footer .left a {
+    margin: 12px 0;
+    text-decoration: none;
+    color: inherit;
+    transition: padding 0.3s ease-in-out;
+}
+.footer .left a:hover {
+    padding-left: 10px;
+    color: rgb(198,154,106);
+}
+.footer .right h6 {
+    font-size: 23px;
+    font-weight: 400;
+    letter-spacing: 10px;
+    margin-bottom: 10px;
+    color: rgb(198,154,106);
+}
+.footer .right p {
+    font-size: 21px;
+    padding-right: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer .right form {
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.footer .right input {
+    width: 80%;
+    padding: 10px;
+    font-size: 19px;
+    background: inherit;
+    border: 1px solid white;
+    border-right: none;
+}
+.footer .right .input-btn {
+    background: rgb(198,154,106);
+    border: 1px solid white;
+    border-left: none;
+    font-size: 22px;
+    width: 2.2em;
+    height: 2em;
+}
+.footer .right .icons {
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer .centre img {
+    display: flex;
+    align-self: center;
+    margin: -25px 0 25px 0;
+}
+.footer .centre p {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-right: 50px;
+}
+.footer .centre .icon {
+    margin-right: 20px;
+}
+footer .copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid white;
+    padding: 30px;
+    margin: 0 auto;
+    font-size: 20px;
+    width: 85%;
+}
+@media only screen and (max-width: 900px) {
+    .footer {
+        flex-direction: column;
+    }
+    .footer .centre, 
+    .footer .right,
+    .footer .left {
+        width: 100%;
+        margin: 30px 0;
+    }
+    .footer .centre p {
+        font-size: 22px;
+    }
+    .footer .centre {
+        order: 1;
+    }
+    .footer .right, 
+    .footer .left {
+        order: 2;
+    }
+}

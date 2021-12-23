@@ -1,0 +1,153 @@
+.deluxe-room {
+    background: rgb(248, 246, 246);
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 60px;
+}
+.dr-p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 90px;
+}
+.dr-hdr {
+    background: white;
+    width: 100%;
+    padding: 30px 0;
+    font-size: 40px;
+    line-height: 1.1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+.dr-p span {
+    width: 100px;
+    border: 1px solid rgb(198,154,106);
+    background: rgb(198,154,106);
+    margin: 2px;
+}
+.dr-p span:nth-of-type(2) {
+    width: 300px;
+}
+.deluxe-room-gallery {
+    background: white;
+    width: 85%;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(214, 210, 210);
+}
+.deluxe-room-gallery nav {
+    width: 100%;
+}
+.deluxe-room-gallery img {
+    width: 100%;
+}
+.esuDeluxe1, .esuDeluxe2, .esuDeluxe3 {
+    display: none;
+}
+.esuDeluxe1.active, .esuDeluxe2.active, .esuDeluxe3.active {
+    transition: 0.3s ease-in-out;
+    display: block;
+}
+.deluxe-room-gallery .dot1,
+.deluxe-room-gallery .dot2,
+.deluxe-room-gallery .dot3 {
+    margin: 20px 5px 0px 5px;
+    color: rgb(214, 202, 202);
+}
+.deluxe-room-gallery .dot1.active,
+.deluxe-room-gallery .dot2.active,
+.deluxe-room-gallery .dot3.active {
+    color: grey;
+}
+.deluxe-room-info {
+    width: 85%;
+    margin: 50px 0;
+    display: flex;
+    align-self: center;
+}
+.deluxe-room-desc {
+    width: 70%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    margin-right: 40px;
+    padding: 50px;
+    background: white;
+    border: 1px solid rgb(214, 210, 210);
+}
+.deluxe-room-desc h3 {
+    margin: 30px 0 30px 0;
+    padding: 15px 0;
+    font-size: 30px;
+    color: rgb(8,48,64);
+    border-top: 1px solid rgb(198,154,106);
+    border-bottom: 1px solid rgb(198,154,106);
+}
+.deluxe-room-desc h6 {
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(198,154,106);
+    margin-bottom: 20px;
+}
+.deluxe-room-desc p {
+    font-size: 18px;
+    text-align: left;
+    line-height: 1.9em;
+}
+.deluxe-room-desc ul {
+    margin: 25px 50px;
+}
+.deluxe-room-desc strong {
+    font-weight: 600;
+    margin-right: 10px;
+}
+.deluxe-room-desc button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 60px;
+    font-size: 19px;
+    font-weight: 600;
+    color: white;
+    background: rgb(198,154,106);
+    border: none;
+    transition: 0.3s ease-out;
+}
+.deluxe-room-features {
+    width: 23%;
+    height: fit-content;
+    padding: 50px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(214, 210, 210);
+}
+.deluxe-room-features h6 {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: rgb(198,154,106);
+    letter-spacing: 3px;
+}
+.deluxe-room-features div {
+    margin: 20px 0;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.feat-icon {
+    color: rgb(198,154,106);
+    font-size: 30px;
+    min-width: 50px;
+    margin-right: 20px;
+}

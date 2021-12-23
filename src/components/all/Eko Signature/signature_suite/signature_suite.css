@@ -1,0 +1,173 @@
+.signature-suite {
+    background: rgb(248, 246, 246);
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 60px;
+}
+.signature-p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 90px;
+}
+.signature-hdr {
+    background: white;
+    width: 100%;
+    padding: 30px 0;
+    font-size: 40px;
+    line-height: 1.1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+.signature-p span {
+    width: 100px;
+    border: 1px solid rgb(198,154,106);
+    background: rgb(198,154,106);
+    margin: 2px;
+}
+.signature-p span:nth-of-type(2) {
+    width: 300px;
+}
+.signature-suite-gallery {
+    background: white;
+    width: 85%;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(214, 210, 210);
+}
+.signature-suite-gallery nav {
+    width: 100%;
+}
+.signature-suite-gallery img {
+    width: 100%;
+}
+.esSignature1,
+.esSignature2,
+.esSignature3, 
+.esSignature4, 
+.esSignature5,
+.esSignature6, 
+.esSignature7 {
+    display: none;
+}
+.esSignature1.active,
+.esSignature2.active,
+.esSignature3.active,
+.esSignature4.active,
+.esSignature5.active,
+.esSignature6.active,
+.esSignature7.active {
+    transition: 0.3s ease-in-out;
+    display: block;
+}
+.signature-suite-gallery .dot1,
+.signature-suite-gallery .dot2,
+.signature-suite-gallery .dot3,
+.signature-suite-gallery .dot4,
+.signature-suite-gallery .dot5,
+.signature-suite-gallery .dot6,
+.signature-suite-gallery .dot7 {
+    margin: 20px 5px 0px 5px;
+    color: rgb(231, 221, 221);
+}
+.signature-suite-gallery .dot1.active,
+.signature-suite-gallery .dot2.active,
+.signature-suite-gallery .dot3.active,
+.signature-suite-gallery .dot4.active,
+.signature-suite-gallery .dot5.active,
+.signature-suite-gallery .dot6.active,
+.signature-suite-gallery .dot7.active {
+    color: grey;
+}
+.signature-suite-info {
+    width: 85%;
+    margin: 50px 0;
+    display: flex;
+    align-self: center;
+}
+.signature-suite-desc {
+    width: 70%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    margin-right: 40px;
+    padding: 50px;
+    background: white;
+    border: 1px solid rgb(214, 210, 210);
+}
+.signature-suite-desc h3 {
+    margin: 30px 0 30px 0;
+    padding: 15px 0;
+    font-size: 30px;
+    color: rgb(8,48,64);
+    border-top: 1px solid rgb(198,154,106);
+    border-bottom: 1px solid rgb(198,154,106);
+}
+.signature-suite-desc h6 {
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(198,154,106);
+    margin-bottom: 20px;
+}
+.signature-suite-desc p {
+    font-size: 18px;
+    text-align: left;
+    line-height: 1.9em;
+}
+.signature-suite-desc ul {
+    margin: 25px 50px;
+}
+.signature-suite-desc strong {
+    font-weight: 600;
+    margin-right: 10px;
+}
+.signature-suite-desc button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 60px;
+    font-size: 19px;
+    font-weight: 600;
+    color: white;
+    background: rgb(198,154,106);
+    border: none;
+    transition: 0.3s ease-out;
+}
+.signature-suite-features {
+    width: 23%;
+    height: fit-content;
+    padding: 50px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(214, 210, 210);
+}
+.signature-suite-features h6 {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: rgb(198,154,106);
+    letter-spacing: 3px;
+}
+.signature-suite-features div {
+    margin: 20px 0;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.feat-icon {
+    color: rgb(198,154,106);
+    font-size: 30px;
+    min-width: 50px;
+    margin-right: 20px;
+}

@@ -1,0 +1,165 @@
+.studio-suite {
+    background: rgb(248, 246, 246);
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 60px;
+}
+.ss-p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 90px;
+}
+.ss-hdr {
+    background: white;
+    width: 100%;
+    padding: 30px 0;
+    font-size: 40px;
+    line-height: 1.1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+.ss-p span {
+    width: 100px;
+    border: 1px solid rgb(198,154,106);
+    background: rgb(198,154,106);
+    margin: 2px;
+}
+.ss-p span:nth-of-type(2) {
+    width: 300px;
+}
+.studio-suite-gallery {
+    background: white;
+    width: 85%;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(214, 210, 210);
+}
+.studio-suite-gallery nav {
+    width: 100%;
+}
+.studio-suite-gallery img {
+    width: 100%;
+}
+.esuStudio1,
+.esuStudio2,
+.esuStudio3, 
+.esuStudio4, 
+.esuStudio5 {
+    display: none;
+}
+.esuStudio1.active,
+.esuStudio2.active,
+.esuStudio3.active,
+.esuStudio4.active,
+.esuStudio5.active  {
+    transition: 0.3s ease-in-out;
+    display: block;
+}
+.studio-suite-gallery .dot1,
+.studio-suite-gallery .dot2,
+.studio-suite-gallery .dot3,
+.studio-suite-gallery .dot4,
+.studio-suite-gallery .dot5 {
+    margin: 20px 5px 0px 5px;
+    color: rgb(214, 202, 202);
+}
+.studio-suite-gallery .dot1.active,
+.studio-suite-gallery .dot2.active,
+.studio-suite-gallery .dot3.active,
+.studio-suite-gallery .dot4.active,
+.studio-suite-gallery .dot5.active {
+    color: grey;
+}
+.studio-suite-info {
+    width: 85%;
+    margin: 50px 0;
+    display: flex;
+    align-self: center;
+}
+.studio-suite-desc {
+    width: 70%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    margin-right: 40px;
+    padding: 50px;
+    background: white;
+    border: 1px solid rgb(214, 210, 210);
+}
+.studio-suite-desc h3 {
+    margin: 30px 0 30px 0;
+    padding: 15px 0;
+    font-size: 30px;
+    color: rgb(8,48,64);
+    border-top: 1px solid rgb(198,154,106);
+    border-bottom: 1px solid rgb(198,154,106);
+}
+.studio-suite-desc h6 {
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(198,154,106);
+    margin-bottom: 20px;
+}
+.studio-suite-desc p {
+    font-size: 18px;
+    text-align: left;
+    line-height: 1.9em;
+}
+.studio-suite-desc ul {
+    margin: 25px 50px;
+}
+.studio-suite-desc strong {
+    font-weight: 600;
+    margin-right: 10px;
+}
+.studio-suite-desc button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 60px;
+    font-size: 19px;
+    font-weight: 600;
+    color: white;
+    background: rgb(198,154,106);
+    border: none;
+    transition: 0.3s ease-out;
+}
+.studio-suite-features {
+    width: 23%;
+    height: fit-content;
+    padding: 50px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(214, 210, 210);
+}
+.studio-suite-features h6 {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: rgb(198,154,106);
+    letter-spacing: 3px;
+}
+.studio-suite-features div {
+    margin: 20px 0;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.feat-icon {
+    color: rgb(198,154,106);
+    font-size: 30px;
+    min-width: 50px;
+    margin-right: 20px;
+}

@@ -1,0 +1,200 @@
+.gallery-page {
+    width: 100%;
+}
+.gallery-page .cont {
+    position: relative;
+    height: 200px;
+    letter-spacing: 1px;
+    background: url(../../../img/gallery_bg.jpg);
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-position-y: 50%;
+    background-size: cover;
+    z-index: -3;
+}
+.gallery-page .cont::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(26, 24, 24, 0.6);
+    z-index: -1;
+}
+.gallery-page .cont h1,
+.gallery-page .cont nav {
+    margin-left: 130px;
+    z-index: 1000;
+}
+.gallery-page .cont h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 70px;
+    font-weight: 800;
+    color: white;
+    padding: 15px 0;
+}
+.gallery-page .cont nav {
+    font-size: 20px;
+    color: rgb(189, 179, 160);
+}
+.gallery-page .cont nav a{
+    text-decoration: none;
+    color: rgb(198,154,106);
+}
+.gallery-page-p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.gp-hdr {
+    background: white;
+    width: 80%;
+    padding: 30px 0;
+    font-size: 40px;
+    text-align: center;
+    line-height: 1.1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+.gallery-page-p span {
+    width: 100px;
+    border: 1px solid rgb(198,154,106);
+    background: rgb(198,154,106);
+    margin: 2px;
+}
+.gallery-page-p span:nth-of-type(2) {
+    width: 300px;
+}
+.gallery-page .navs {
+    width: 100%;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gallery-page .navs ul {
+    display: flex;
+}
+.gallery-page .navs li {
+    margin: 10px 30px;
+    padding-bottom: 5px;
+    list-style: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(2,44,74);
+    cursor: pointer;
+}
+.gallery-page .navs li:hover {
+    color: rgb(198,154,106);
+}
+.gallery-page .navs li.active {
+    border-bottom: 3px solid rgb(198,154,106);
+}
+.gallery-page section {
+    width: 100%;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+}
+.gallery-page .img-gallery {
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.gallery-page .nav-images {
+    min-width: 30%;
+    width: 32%;
+    height: 270px;
+    margin: 0 0 15px 15px;
+    position: relative;
+    cursor: pointer;
+}
+.gallery-page .nav-images::before {
+    content: '+';
+    opacity: 0;
+    background: rgb(44, 42, 42);
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.3s ease-in-out;
+    z-index: 33;
+}
+.gallery-page .nav-images:hover:before {
+    opacity: 0.7;
+}
+.gallery-page .nav-img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+.gallery-page .modal {
+    position: relative;
+}
+.gallery-page .modal-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.7s ease-in;
+    width: 55%;
+    height: 90%;
+    background: #fff;
+    border: 5px solid #fff;
+    border-radius: 5px;
+}
+.gallery-page #modal-nav {
+    width: 27.5%;
+    height: 78%;
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    text-align: left;
+}
+.gallery-modal {
+    position: relative;
+}
+.gal-modal-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.7s ease-in;
+    width: 85%;
+    height: 90%;
+    object-fit: fill;
+    background: #fff;
+    border-radius: 5px;
+}
+
+#gal-modal-nav-prev,
+#gal-modal-nav-next {
+    color: rgb(255, 255, 255);
+    opacity: 0.65;
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    transform: translate(0, -50%);
+    font-size: 70px;
+}
+#gal-modal-nav-prev:hover,
+#gal-modal-nav-next:hover {
+    opacity: 1;
+}
+#gal-modal-nav-prev {
+    left: 50px;
+}
+#gal-modal-nav-next {
+    right: 50px;
+}

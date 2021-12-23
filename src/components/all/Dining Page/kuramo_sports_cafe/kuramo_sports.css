@@ -1,0 +1,153 @@
+.kuramo-sports-cafe {
+    background: rgb(248, 246, 246);
+    display: flex;
+    flex-direction: column;
+}
+.kuramo-sports-cafe-p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 90px;
+}
+.kuramo-sports-cafe-hdr {
+    background: white;
+    width: 100%;
+    padding: 30px 0;
+    font-size: 40px;
+    line-height: 1.1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+.kuramo-sports-cafe-p span {
+    width: 100px;
+    border: 1px solid rgb(198,154,106);
+    background: rgb(198,154,106);
+    margin: 2px;
+}
+.kuramo-sports-cafe-p span:nth-of-type(2) {
+    width: 300px;
+}
+.kuramo-sports-cafe main {
+    background: white;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.kuramo-sports-cafe main .kuramo-sports-ga {
+    background: rgb(248, 246, 246);
+    width: 100vw;
+    padding-bottom: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.kuramo-sports-cafe .kuramo-sports-gallery {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.kuramo-sports-cafe .kuramo-sports-gallery figure {
+    position: relative;
+    width: 85%;
+    background: rgb(8,48,64);
+}
+.kuramo-sports-cafe .kuramo-sports-gallery img {
+    width: 100%;
+    object-fit: cover;
+}
+.kuramo-sports-cafe .kuramo-sports-gallery figcaption {
+    font-size: 21px;
+    padding: 15px 30px;
+    color: white;
+}
+.kuramo-sports-cafe .kuramo-sports-gallery button {
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 15px;
+    background: rgb(8,48,64);
+    z-index: 33;
+}
+.kuramo-sports-cafe .back {
+    left: 15px;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+}
+.kuramo-sports-cafe .forward {
+    right: 15px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.kuramo-sports-cafe .forward-icon,
+.kuramo-sports-cafe .back-icon {
+    font-size: 40px;
+}
+.kuramo-sports-cafe .kuramo-sports-album {
+    width: 85%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px;
+}
+.kuramo-sports-cafe .kuramo-sports-album div {
+    height: 120px;
+    position: relative;
+}
+.kuramo-sports-cafe .kuramo-sports-album div::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(253, 251, 251, 0.5);
+}
+.kuramo-sports-cafe .kuramo-sports-album div:hover::before {
+    background: none;
+}
+.kuramo-sports-cafe .kuramo-sports-album div.active::before {
+    background: none;
+}
+.kuramo-sports-cafe .kuramo-sports-album div img {
+    height: 100%;
+    width: 100%;
+}
+.kuramo-sports-cafe .kuramo-sports-info {
+    width: 85%;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+}
+.kuramo-sports-cafe .kuramo-sports-info div {
+    background: rgb(8,48,64);
+    padding: 10px 20px;
+    margin: 10px 0 20px 0;
+    width: fit-content;
+    font-size: 22px;
+    color: white;
+}
+.kuramo-sports-cafe .kuramo-sports-info p {
+    line-height: 1.5;
+    font-size: 20px;
+    padding-right: 30px;
+    margin: 10px 0;
+}
+.kuramo-sports-cafe .kuramo-sports-info ul {
+    margin: 20px 0 0 80px;
+}
+.kuramo-sports-cafe strong {
+    margin-right: 10px;
+    color: rgb(51,51,51);
+}

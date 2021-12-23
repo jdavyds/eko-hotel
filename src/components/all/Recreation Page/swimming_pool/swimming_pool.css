@@ -1,0 +1,150 @@
+.swimming-pool {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+.swimming-pool .cont {
+    position: relative;
+    height: 200px;
+    letter-spacing: 1px;
+    background: url(../../../img/gallery_bg.jpg);
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-position-y: 50%;
+    background-size: cover;
+    z-index: -3;
+}
+.swimming-pool .cont::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(26, 24, 24, 0.6);
+    z-index: -1;
+}
+.swimming-pool .cont h1,
+.swimming-pool .cont nav {
+    margin-left: 130px;
+    z-index: 1000;
+}
+.swimming-pool .cont h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 70px;
+    font-weight: 800;
+    color: white;
+    padding: 15px 0;
+}
+.swimming-pool .cont nav {
+    font-size: 20px;
+    color: rgb(189, 179, 160);
+}
+.swimming-pool .cont nav a{
+    text-decoration: none;
+    color: rgb(198,154,106);
+}
+.pool-p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 90px;
+}
+.pool-hdr {
+    background: white;
+    width: 100%;
+    padding: 30px 0;
+    font-size: 35px;
+    line-height: 1.1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+.pool-p span {
+    width: 100px;
+    border: 1px solid rgb(198,154,106);
+    background: rgb(198,154,106);
+    margin: 2px;
+}
+.swimming-pool span:nth-of-type(2) {
+    width: 300px;
+}
+.pool-gallery {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pool-gallery nav {
+    width: 85%;
+}
+.pool-gallery img {
+    width: 100%;
+    height: 100%;
+}
+.pool1,
+.pool2,
+.pool3,
+.pool4,
+.pool5,
+.pool6 {
+    display: none;
+}
+.pool1.active,
+.pool2.active,
+.pool3.active,
+.pool4.active,
+.pool5.active,
+.pool6.active {
+    transition: 0.3s ease-in-out;
+    display: block;
+}
+.pool-gallery .dot1,
+.pool-gallery .dot2,
+.pool-gallery .dot3,
+.pool-gallery .dot4,
+.pool-gallery .dot5,
+.pool-gallery .dot6 {
+    margin: 20px 5px 0px 5px;
+    color: rgb(214, 202, 202);
+}
+.pool-gallery .dot1:hover,
+.pool-gallery .dot2:hover,
+.pool-gallery .dot3:hover,
+.pool-gallery .dot4:hover,
+.pool-gallery .dot5:hover,
+.pool-gallery .dot6:hover {
+    color: grey;
+}
+.pool-gallery .dot1.active,
+.pool-gallery .dot2.active,
+.pool-gallery .dot3.active,
+.pool-gallery .dot4.active,
+.pool-gallery .dot5.active,
+.pool-gallery .dot6.active   {
+    color: grey;
+}
+.pool-info {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 85%;
+}
+.pool-info div {
+    background: rgb(8,48,64);
+    padding: 5px 20px;
+    margin: 10px 0;
+    width: fit-content;
+    font-size: 22px;
+    color: white;
+}
+.pool-info p {
+    font-size: 20px;
+    line-height: 1.6;
+    margin: 10px 0;
+}

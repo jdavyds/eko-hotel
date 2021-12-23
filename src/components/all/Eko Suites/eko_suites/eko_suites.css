@@ -1,0 +1,151 @@
+.eko-suites {
+    width: 100%;
+}
+.eko-suites .cont {
+    position: relative;
+    height: 200px;
+    letter-spacing: 1px;
+    background: url(../../../img/eko_garden_bg.jpg);
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-position-y: 60%;
+    background-size: cover;
+    z-index: -3;
+}
+.eko-suites .cont::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(26, 24, 24, 0.6);
+    z-index: -1;
+}
+.eko-suites .cont h1,
+.eko-suites .cont nav {
+    margin-left: 130px;
+    z-index: 1000;
+}
+.eko-suites .cont h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 70px;
+    font-weight: 800;
+    color: white;
+    padding: 15px 0;
+}
+.eko-suites .cont nav {
+    font-size: 20px;
+    color: rgb(189, 179, 160);
+}
+.eko-suites .cont nav a{
+    text-decoration: none;
+    color: rgb(198,154,106);
+}
+.eko-suites main {
+    padding: 130px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(41, 38, 38);
+}
+.eko-suites .logo-div {
+    margin: 0;
+    height: 140px;
+}
+.eko-suites .logo-div img {
+    height: 100%;
+}
+.eko-suites .suites-info {
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 1.9em;
+    font-size: 20px;
+    margin: 20px 35px 20px 0;
+} 
+.eko-suites .num-of-rooms ul {
+    font-size: 19px;
+    margin: 20px 0 100px 80px;
+    line-height: 1.9em;
+}
+.eko-suites strong {
+    font-size: 20px;
+    font-weight: 600;
+}
+.eko-suites .rooms {
+    min-height: 420px;
+    margin: 30px 0;
+    display: flex;
+    align-items: center;
+}
+.eko-suites .room-img {
+    height: 100%;
+    width: 50%;
+}
+.eko-suites .room-img img {
+    width: 100%;
+    height: 100%;
+}
+.eko-suites .room-info {
+    width: 47%;
+    margin: auto 60px auto -50px;
+    padding: 30px;
+    background: white;
+    box-shadow: 0 0 13px 0 rgb(158, 153, 153, 0.7);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.eko-suites .room-info h4 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(233, 217, 217);
+    color: rgb(8,48,64);
+}
+.eko-suites .room-info p {
+    line-height: 2em;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+.eko-suites .room-info nav {
+    display: flex;
+    padding: 5px 0px 5px 0;
+    font-size: 14px;
+    font-weight: 700;
+    border-bottom: 1px solid rgb(233, 217, 217);
+}
+.eko-suites .room-info nav:last-of-type {
+    margin-bottom: 30px;
+}
+.eko-suites .room-info nav span:first-of-type {
+    margin-right: 150px;
+    width: 200px;
+}
+.eko-suites .room-info button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 60px;
+    font-size: 19px;
+    font-weight: 600;
+    color: white;
+    background: rgb(198,154,106);
+    border: none;
+    transition: 0.3s ease-out;
+}
+.eko-suites .room-info button:hover {
+    border: 1px solid black;
+    background: white;
+    color: rgb(8,48,64);
+}
+.eko-suites .room-info button a {
+    color: inherit;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

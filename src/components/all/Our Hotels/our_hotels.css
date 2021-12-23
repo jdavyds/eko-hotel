@@ -1,0 +1,108 @@
+.our-hotels {
+    width: 100%;
+}
+.our-hotels .cont {
+    position: relative;
+    height: 200px;
+    letter-spacing: 1px;
+    background: url(../../img/eko_garden_bg.jpg);
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-position-y: 60%;
+    background-size: cover;
+    z-index: -3;
+}
+.our-hotels .cont::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(26, 24, 24, 0.6);
+    z-index: -1;
+}
+.our-hotels .cont h1,
+.our-hotels .cont nav {
+    margin-left: 130px;
+    z-index: 1000;
+}
+.our-hotels .cont h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 70px;
+    font-weight: 800;
+    color: white;
+    padding: 15px 0;
+}
+.our-hotels .cont nav {
+    font-size: 20px;
+    color: rgb(189, 179, 160);
+}
+.our-hotels .cont nav a{
+    text-decoration: none;
+    color: rgb(198,154,106);
+}
+.our-hotels main {
+    width: 100%;
+    margin: 130px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.our-hotels .our-hotel {
+    width: 85%;
+    margin: 30px 0;
+    display: flex;
+}
+.our-hotel .hotel-img {
+    width: 58%;
+    height: 570px;
+}
+.our-hotel .hotel-img img {
+    width: 100%;
+    height: 100%;
+}
+.our-hotel .hotel-info {
+    width: 42%;
+    padding: 40px;
+    line-height: 1.7;
+    border: 2px solid rgb(198,154,106);
+    background: url(../../img/pattern.png);
+}
+.our-hotel .hotel-info h4 {
+    font-size: 40px;
+    margin: 15px 0;
+    color: rgb(8,48,64);
+}
+.our-hotel .hotel-info p {
+    font-size: 19px;
+}
+.our-hotel .hotel-info button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 60px;
+    margin-top: 50px;
+    font-size: 19px;
+    font-weight: 600;
+    color: white;
+    background: rgb(198,154,106);
+    border: none;
+    transition: 0.3s ease-out;
+}
+.our-hotel .hotel-info button:hover {
+    border: 1px solid black;
+    background: white;
+    color: rgb(8,48,64);
+}
+.our-hotel .hotel-info button a {
+    color: inherit;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
