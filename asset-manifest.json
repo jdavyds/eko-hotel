@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/eko-hotel/static/css/main.9713f14b.chunk.css",
-    "main.js": "/eko-hotel/static/js/main.5599d18d.chunk.js",
-    "main.js.map": "/eko-hotel/static/js/main.5599d18d.chunk.js.map",
+    "main.js": "/eko-hotel/static/js/main.67633f7f.chunk.js",
+    "main.js.map": "/eko-hotel/static/js/main.67633f7f.chunk.js.map",
     "runtime-main.js": "/eko-hotel/static/js/runtime-main.f2c9e564.js",
     "runtime-main.js.map": "/eko-hotel/static/js/runtime-main.f2c9e564.js.map",
     "static/css/2.b0d5651f.chunk.css": "/eko-hotel/static/css/2.b0d5651f.chunk.css",
@@ -284,6 +284,6 @@
     "static/css/2.b0d5651f.chunk.css",
     "static/js/2.8fcba3c0.chunk.js",
     "static/css/main.9713f14b.chunk.css",
-    "static/js/main.5599d18d.chunk.js"
+    "static/js/main.67633f7f.chunk.js"
   ]
 }
